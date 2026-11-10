@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Início | Votação 2026</title>
+
+    <link
+        rel="stylesheet"
+        href="lib/bootstrap/bootstrap.min.css"
+    >
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark navbar-fazenda">
+        <div class="container">
+
+            <a class="navbar-brand" href="index.html">
+                <img
+                    src="img/logo-fazenda.jpg"
+                    alt="Logo"
+                    width="48"
+                >
+                Votação 2026
+            </a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#menu"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <div class="navbar-nav ms-auto">
+
+                    <a class="nav-link active" href="index.html">
+                        Início
+                    </a>
+                    <a class="nav-link" href="votacao.html">
+                        Votar
+                    </a>
+                    <a class="nav-link" href="resultado.html">
+                        Resultado
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <main class="container my-4">
+
+        <div class="row align-items-center g-4">
+
+            <div class="col-md-4 text-center">
+
+                <img
+                    src="img/fazendeiro.jpg"
+                    class="img-fluid rounded-circle foto-fazendeiro"
+                    alt="Fazendeiro"
+                >
+                <p>
+                    <span class="etiqueta">
+                        Fazendeiro João Paulo
+                    </span>
+                </p>
+            </div>
+            <div class="col-md-8">
+                <div class="card card-claro p-3">
+                    <div class="card-body">
+                        <h1>
+                            Ô de casa! Aqui quem manda é o fazendeiro.
+                        </h1>
+                        <p>
+                            Três peões foram parar na roça esta semana.
+                            Só um volta pra casa, e quem decide é você.
+                            Pode votar quantas vezes quiser.
+                        </p>
+
+                        <a href="votacao.html" class="btn btn-danger">
+                            Votar agora
+                        </a>
+
+                        <a href="resultado.html" class="btn btn-dark">
+                            Ver parcial
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="mt-4">
+            <h2>Na roça desta semana</h2>
+
+            <div
+                id="roca-home"
+                class="d-flex flex-wrap gap-2"
+            ></div>
+
+        </section>
+    </main>
+    <footer class="text-center py-4">
+        DIAW 2026, PUC Minas
+    </footer>
+    <script src="lib/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/home.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #4c2b14;
+    color: #f4dfad;
+}
+
+.navbar-fazenda {
+    background-color: #311b0e;
+}
+
+.navbar-brand {
+    color: #f4ce6a;
+}
+
+
+.card-claro, .card-peao {
+    background-color: #f6e7c2;
+    color: #302017;
+}
+
+
+.foto-fazendeiro {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-img-top {
+    height: 220px;
+    object-fit: cover;
+}
+
+
+.card-roca {
+    border: 3px solid #9e1d19;
+}
+
+
+.card-pequeno img {
+    height: 110px;
+    object-fit: cover;
+}
+
+
+.resultado-item {
+    background-color: #f6e7c2;
+    color: #302017;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.resultado-item img {
+    width: 115px;
+    height: 90px;
+    object-fit: cover;
+}
+
+.progress-bar {
+    background-color: #b41c1a;
+}
